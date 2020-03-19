@@ -1,6 +1,7 @@
 import React from 'react';
 import './App.css';
-import LifecycleMountA from './components/LifecycleMountA';
+import LifecycleUpdateA from './components/LifecycleUpdateA';
+//import LifecycleMountA from './components/LifecycleMountA';
 
 
 
@@ -8,7 +9,8 @@ import LifecycleMountA from './components/LifecycleMountA';
 function App() {
   return (
     <div className="App">
-        <LifecycleMountA />
+        {/*<LifecycleMountA />*/}
+        <LifecycleUpdateA />
     </div>
   );
 }
